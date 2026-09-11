@@ -3,8 +3,12 @@
 :root {
     --light-blue-color: #142554;
     --light-blue-text-color: #759af1;
+    --dark-blue-text-color: #1d4ed8;
     --light-gray-text-color: #9fa6b5;
+    --dark-gray-text-color: #656a75;
     --background-gray-color: #10141b;
+    --background-light-gray-color: #f0f4f7;
+    --background-medium-gray-color: #c7cbce;
 }
 
 *,*::before,*::after {
@@ -50,4 +54,19 @@ body {
     height: 900px;
     border-radius: 100%;
     box-shadow: 0px 0px 100px 100px#142554;
+}
+
+/*
+    Slide-02
+*/
+#slide-02-main::before {
+    content: '';
+    position: absolute;
+    background-color: var(--background-medium-gray-color);
+    right: -150px;
+    bottom: -800px;
+    width: 900px;
+    height: 900px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 100px 100px var(--background-medium-gray-color);
 }
