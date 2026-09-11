@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TailwindCSS</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="slide-01-main" class="text-white min-h-dvh bg-[#0b0e15] flex flex-col p-10 max-lg:p-8 max-md:p-5">
+        <header class="mb-5 flex justify-between items-center w-full max-md:gap-4">
+            <code class="text-(--light-blue-text-color) font-bold tracking-widest text-sm max-md:text-xs">
+                PRIMEIROS PASSOS
+            </code>
+            <code class="text-(--light-gray-text-color) text-sm max-md:text-xs">
+                tailwind css
+            </code>
+        </header>
+        <span class="w-full h-px bg-(--light-gray-text-color) mb-10 max-lg:mb-8 max-md:mb-6"></span>
+        <section class="h-full flex flex-col gap-10 max-lg:gap-8 max-md:gap-6">
+            <h1 class="font-bold text-5xl max-lg:text-4xl max-md:text-3xl">
+                Como começar hoje
+            </h1>
+            <ul class="flex flex-col gap-5 h-full max-lg:gap-4 max-md:gap-3">
+                <li class="flex gap-15 border border-gray-800 rounded-md p-5 text-2xl bg-(--background-gray-color) max-lg:gap-8 max-lg:p-4 max-lg:text-xl max-md:gap-4 max-md:p-4 max-md:text-base">
+                    <code class="text-(--light-blue-text-color) shrink-0">01</code>
+                    <p>
+                        Importe
+                        <code class="text-[#569CD6] break-all">
+                            &lt;script&gt;
+                        </code>
+                        <code class="text-[#DCDCAA]">
+                            src
+                        </code>
+                        <code class="text-white">
+                            =
+                        </code>
+                        <code class="text-[#CE9178] break-all">
+                            "https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"
+                        </code>
+                        <code class="text-[#569CD6]">
+                            &lt;/script&gt;
+                        </code>
+                        no
+                        <code class="text-[#569CD6]">
+                            &lt;head&gt;&lt;/head&gt;
+                        </code>
+                        do HTML
+                    </p>
+                </li>
+                <li class="flex gap-15 border border-gray-800 rounded-md p-5 text-2xl bg-(--background-gray-color) max-lg:gap-8 max-lg:p-4 max-lg:text-xl max-md:gap-4 max-md:p-4 max-md:text-base">
+                    <code class="text-(--light-blue-text-color) shrink-0">02</code>
+                    <p>
+                        Importe no seu CSS principal:
+                        <code class="text-[#C586C0]">
+                            @import
+                        </code>
+                        <code class="text-[#CE9178]">
+                            "tailwindcss"
+                        </code>
+                        <code class="text-[#D4D4D4]">
+                            ;
+                        </code>
+                    </p>
+                </li>
+                <li class="flex gap-15 border border-gray-800 rounded-md p-5 text-2xl bg-(--background-gray-color) max-lg:gap-8 max-lg:p-4 max-lg:text-xl max-md:gap-4 max-md:p-4 max-md:text-base">
+                    <code class="text-(--light-blue-text-color) shrink-0">03</code>
+                    <p>
+                        Instale a extensão
+                        <code class="text-[#4EC9B0] wrap-break-word">
+                            Tailwind CSS IntelliSense
+                        </code>
+                    </p>
+                </li>
+                <li class="flex gap-15 border border-gray-800 rounded-md p-5 text-2xl bg-(--background-gray-color) max-lg:gap-8 max-lg:p-4 max-lg:text-xl max-md:gap-4 max-md:p-4 max-md:text-base">
+                    <code class="text-(--light-blue-text-color) shrink-0">04</code>
+                    <p>
+                        Escreva as classes no HTML e deixe o autocomplete guiar
+                    </p>
+                </li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
