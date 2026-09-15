@@ -17,19 +17,24 @@
                 tailwind css
             </code>
         </header>
+
         <span class="z-100 w-full h-px bg-(--light-gray-text-color) mb-10 max-lg:mb-8 max-md:mb-6"></span>
+
         <section class="z-100 h-full flex flex-col gap-10 max-lg:gap-8 max-md:gap-6">
             <h1 class="font-bold text-5xl max-lg:text-4xl max-md:text-3xl">
                 O mesmo cartão, dois caminhos
             </h1>
-            <div class="text-2xl flex w-full gap-10">
+
+            <div class="text-2xl max-lg:text-xl max-md:text-base flex w-full gap-10 max-lg:gap-8 max-md:flex-col max-md:gap-6">
                 <aside class="w-full">
                     <code class="text-(--dark-gray-text-color)">CSS tradicional</code>
                     <br/>
-                    <div class="bg-white rounded-lg border border-gray-200 p-4 font-sans">
-                        <p>&lt;div class="card"&gt;...&lt;/div&gt;</p>
+
+                    <div class="bg-white rounded-lg border border-gray-200 p-4 max-md:p-3 font-sans overflow-x-auto">
+                        <p class="whitespace-nowrap">&lt;div class="card"&gt;...&lt;/div&gt;</p>
                         <br/>
-                        <ul class="relative flex flex-col">
+
+                        <ul class="relative flex flex-col whitespace-nowrap">
                             <code>.card &#123;</code>
                             <code class="ml-7">padding: 24px;</code>
                             <code class="ml-7">border-radius: 12px;</code>
@@ -39,17 +44,25 @@
                         </ul>
                     </div>
                 </aside>
+
                 <aside class="w-full">
                     <code class="text-(--dark-blue-text-color)">Tailwind</code>
                     <br/>
-                    <div class="bg-white rounded-lg border border-gray-200 p-4 font-sans">
-                        <p>&lt;div class="p-6 rounded-xl <br/>bg-white shadow-sm"&gt;</p>
+
+                    <div class="bg-white rounded-lg border border-gray-200 p-4 max-md:p-3 font-sans overflow-x-auto">
+                        <p class="whitespace-nowrap">&lt;div class="p-6 rounded-xl</p>
+                        <p class="whitespace-nowrap">bg-white shadow-sm"&gt;</p>
                         <p class="ml-7">...</p>
-                        <p>&lt;/div&gt;</p>
+                        <p class="whitespace-nowrap">&lt;/div&gt;</p>
                     </div>
-                    <code>Nenhum nome novo, nenhum arquivo aberto. O estilo é único para o elemento.</code>
+
+                    <code>
+                        Nenhum nome novo, nenhum arquivo aberto.
+                        O estilo é único para o elemento.
+                    </code>
                 </aside>
             </div>
         </section>
     </main>
 </body>
+</html>
