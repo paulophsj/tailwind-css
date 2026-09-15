@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TailwindCSS</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main id="slide-06-main" class="text-white min-h-dvh bg-[#0b0e15] flex flex-col p-10 max-lg:p-8 max-md:p-5">
+        <header class="z-100 mb-5 flex justify-between items-center w-full max-md:gap-4">
+            <code class="text-(--light-blue-text-color) font-bold tracking-widest text-sm max-md:text-xs">
+                RESPONSIVIDADE
+            </code>
+            <code class="text-(--light-gray-text-color) text-sm max-md:text-xs">
+                tailwind css
+            </code>
+        </header>
+        <span class="z-100 w-full h-px bg-(--light-gray-text-color) mb-10 max-lg:mb-8 max-md:mb-6"></span>
+        <section class="z-100 h-full flex flex-col gap-10 max-lg:gap-8 max-md:gap-6">
+            <h1 class="font-bold text-5xl max-lg:text-4xl max-md:text-3xl">
+                Breakpoints como prefixo
+            </h1>
+            <ul class="flex flex-col gap-5 h-full max-lg:gap-4 max-md:gap-3">
+                <li
+                    class="flex gap-15 border border-gray-800 rounded-md p-5 text-2xl bg-(--background-gray-color) max-lg:gap-8 max-lg:p-4 max-lg:text-xl max-md:gap-4 max-md:p-4 max-md:text-base">
+                    <p>
+                        <code class="text-(--dark-gray-text-color) shrink-0">class="</code>
+                        grid
+                        <code
+                            class="text-(--light-blue-text-color) shrink-0">class ="grid grid-cols-1 md:grid-cols-2 lg:gd-cols-3</code>
+                        <code class="text-(--dark-gray-text-color) shrink-0">"</code>
+                    </p>
+                </li>
+            </ul>
+
+            <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 max-lg:gap-4 max-md:gap-3">
+                <li class="border-t-4 border-(--light-blue-color) p-6">
+                    <code class="text-(--light-blue-text-color) text-2xl max-md:text-xl">sem prefixo</code>
+                    <p class="text-(--dark-gray-text-color) text-xl max-md:text-base">
+                        Vale sempre — o celular é o padrão
+                    </p>
+                </li>
+                <li class="border-t-4 border-(--light-blue-color) p-6">
+                    <code class="text-(--light-blue-text-color) text-2xl max-md:text-xl">md:</code>
+                    <p class="text-(--dark-gray-text-color) text-xl max-md:text-base">
+                        A partir de 768px, tablet acima
+                    </p>
+                </li>
+                <li class="border-t-4 border-(--light-blue-color) p-6">
+                    <code class="text-(--light-blue-text-color) text-2xl max-md:text-xl">lg:</code>
+                    <p class="text-(--dark-gray-text-color) text-xl max-md:text-base">
+                        A partir de 1024px, desktop
+                    </p>
+                </li>
+            </ul>
+
+        </section>
+    </main>
+</body>
