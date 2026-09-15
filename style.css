@@ -11,7 +11,9 @@
     --background-medium-gray-color: #c7cbce;
 }
 
-*,*::before,*::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
@@ -60,7 +62,8 @@ main {
 /*
     Slide-02
 */
-#slide-02-main::before, #slide-04-main::before {
+#slide-02-main::before,
+#slide-04-main::before {
     content: '';
     position: absolute;
     background-color: var(--background-medium-gray-color);
