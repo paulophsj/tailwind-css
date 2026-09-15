@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TailwindCSS</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="slide-08-main" class="text-white min-h-dvh bg-(--dark-blue-text-color) flex flex-col justify-center p-10 max-lg:p-8 max-md:p-5">
+        <section class="w-4/5 max-md:w-full flex flex-col gap-10 max-lg:gap-8 max-md:gap-6">
+            <span class="w-12 h-0.5 bg-white"></span>
+            <h1 class="font-bold text-5xl max-lg:text-4xl max-md:text-3xl">
+                O que levar desta conversa
+            </h1>
+            <ul class="text-2xl max-lg:text-xl max-md:text-base border-t border-white/25 divide-y divide-white/25">
+                <li class="py-6 max-md:py-4">O estilo mora no elemento: menos nomes, menos arquivos.</li>
+                <li class="py-6 max-md:py-4">A escala pronta de cores e espaços mantém a tela coerente.</li>
+                <li class="py-6 max-md:py-4">O custo é um HTML mais longo: aceite ou extraia componentes.</li>
+            </ul>
+            <code class="text-blue-200 text-xl max-lg:text-lg max-md:text-sm">
+                tailwindcss.com/docs: a documentação é o melhor tutorial
+            </code>
+        </section>
+    </main>
+    <nav class="fixed z-500 bottom-10 left-10 right-10 flex justify-between text-white">
+        <a href="./slide-07.html">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
+            </svg>
+        </a>
+        <a href="./index.html">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793L10.146 4.354a.5.5 0 1 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+            </svg>
+        </a>
+    </nav>
+</body>
+</html>
