@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TailwindCSS</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="slide-09-main" class="relative overflow-hidden min-h-dvh bg-(--dark-blue-text-color) flex flex-col justify-center p-10 max-lg:p-8 max-md:p-5 text-white">
+        <section class="z-10 max-w-4xl flex flex-col gap-8 max-lg:gap-6 max-md:gap-5">
+            <span class="w-16 h-1 bg-white"></span>
+            <h1 class="font-bold text-5xl max-lg:text-4xl max-md:text-3xl">
+                O que levar desta conversa
+            </h1>
+            <ul class="flex flex-col">
+                <li class="py-6 border-b border-white/30 text-2xl max-lg:text-xl max-md:text-lg max-md:py-4">
+                    O estilo mora no elemento — menos nomes, menos arquivos.
+                </li>
+                <li class="py-6 border-b border-white/30 text-2xl max-lg:text-xl max-md:text-lg max-md:py-4">
+                    A escala pronta de cores e espaços mantém a tela coerente.
+                </li>
+                <li class="py-6 border-b border-white/30 text-2xl max-lg:text-xl max-md:text-lg max-md:py-4">
+                    O custo é um HTML mais longo: aceite ou extraia componentes.
+                </li>
+                <li class="pt-8 max-md:pt-6">
+                    <code class="text-lg max-md:text-base text-white/80">
+                        tailwindcss.com/docs — a documentação é o melhor tutorial
+                    </code>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <nav class="fixed z-500 bottom-10 left-10 right-10 flex justify-between text-white">
+        <a href="./slide-08.html">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
+            </svg>
+        </a>
+    </nav>
+</body>
+</html>

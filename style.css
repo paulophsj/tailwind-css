@@ -130,3 +130,14 @@ body {
     box-shadow: 0px 0px 100px 100px var(--background-medium-gray-color);
 
 }
+#slide-09-main::before {
+    content: '';
+    position: absolute;
+    background-color: var(--light-blue-color);
+    right: -150px;
+    bottom: -800px;
+    width: 900px;
+    height: 900px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 100px 100px #142554;
+}
