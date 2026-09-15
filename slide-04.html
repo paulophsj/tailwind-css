@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TailwindCSS</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="slide-04-main" class="min-h-dvh bg-(--background-light-gray-color) flex flex-col p-10 max-lg:p-8 max-md:p-5">
+        <header class="z-100 mb-5 flex justify-between items-center w-full max-md:gap-4">
+            <code class="text-(--dark-blue-text-color) font-bold tracking-widest text-sm max-md:text-xs">
+                LADO A LADO
+            </code>
+            <code class="text-(--light-gray-text-color) text-sm max-md:text-xs">
+                tailwind css
+            </code>
+        </header>
+
+        <span class="z-100 w-full h-px bg-(--light-gray-text-color) mb-10 max-lg:mb-8 max-md:mb-6"></span>
+
+        <section class="z-100 h-full flex flex-col gap-10 max-lg:gap-8 max-md:gap-6">
+            <h1 class="font-bold text-5xl max-lg:text-4xl max-md:text-3xl">
+                O mesmo cartão, dois caminhos
+            </h1>
+
+            <div class="text-2xl max-lg:text-xl max-md:text-base flex w-full gap-10 max-lg:gap-8 max-md:flex-col max-md:gap-6">
+                <aside class="w-full">
+                    <code class="text-(--dark-gray-text-color)">CSS tradicional</code>
+                    <br/>
+
+                    <div class="bg-white rounded-lg border border-gray-200 p-4 max-md:p-3 font-sans overflow-x-auto">
+                        <p class="whitespace-nowrap">&lt;div class="card"&gt;...&lt;/div&gt;</p>
+                        <br/>
+
+                        <ul class="relative flex flex-col whitespace-nowrap">
+                            <code>.card &#123;</code>
+                            <code class="ml-7">padding: 24px;</code>
+                            <code class="ml-7">border-radius: 12px;</code>
+                            <code class="ml-7">background: #fff;</code>
+                            <code class="ml-7">box-shadow: 0 1px 3px ...;</code>
+                            <code>&#125;</code>
+                        </ul>
+                    </div>
+                </aside>
+
+                <aside class="w-full">
+                    <code class="text-(--dark-blue-text-color)">Tailwind</code>
+                    <br/>
+
+                    <div class="bg-white rounded-lg border border-gray-200 p-4 max-md:p-3 font-sans overflow-x-auto">
+                        <p class="whitespace-nowrap">&lt;div class="p-6 rounded-xl</p>
+                        <p class="whitespace-nowrap">bg-white shadow-sm"&gt;</p>
+                        <p class="ml-7">...</p>
+                        <p class="whitespace-nowrap">&lt;/div&gt;</p>
+                    </div>
+
+                    <code>
+                        Nenhum nome novo, nenhum arquivo aberto.
+                        O estilo é único para o elemento.
+                    </code>
+                </aside>
+            </div>
+        </section>
+    </main>
+        <nav class="fixed z-500 bottom-10 left-10 right-10 flex justify-between text-white">
+    <a href="./slide-03.html">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
+        </svg>
+    </a>
+    <a href="./slide-06.html">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793L10.146 4.354a.5.5 0 1 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+        </svg>
+    </a>
+</nav>
+</body>
+</html>

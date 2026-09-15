@@ -17,67 +17,73 @@
                 tailwind css
             </code>
         </header>
+
         <span class="z-100 w-full h-px bg-(--light-gray-text-color) mb-10 max-lg:mb-8 max-md:mb-6"></span>
+
         <section class="z-100 h-full flex flex-col gap-10 max-lg:gap-8 max-md:gap-6">
             <h1 class="font-bold text-5xl max-lg:text-4xl max-md:text-3xl">
                 Utility-first: uma classe, uma decisão
             </h1>
-            <div class="flex gap-10">
-                <!-- Código de botão -->
-                <aside class="text-2xl w-full bg-(--background-gray-color) rounded-lg border border-(--dark-gray-text-color)">
-                    <header class="text-(--dark-gray-text-color) flex justify-between p-3 border-b border-b-(--dark-gray-text-color)">
+
+            <div class="flex gap-10 max-lg:gap-8 max-md:flex-col max-md:gap-6">
+                <aside class="text-2xl max-lg:text-xl max-md:text-base w-full bg-(--background-gray-color) rounded-lg border border-(--dark-gray-text-color) overflow-hidden">
+                    <header class="text-(--dark-gray-text-color) flex justify-between p-3 max-md:p-2 border-b border-b-(--dark-gray-text-color)">
                         <code>Button.html</code>
                         <code>html</code>
                     </header>
-                    <ul class="p-3">
-                        <li class="text-(--dark-gray-text-color) flex gap-2">
+
+                    <ul class="p-3 max-md:p-2 overflow-x-auto">
+                        <li class="text-(--dark-gray-text-color) flex gap-2 whitespace-nowrap">
                             <code>1</code>
                             <code>&lt;button class=</code>
                         </li>
-                        <li class="flex gap-2">
+                        <li class="flex gap-2 whitespace-nowrap">
                             <code class="text-(--dark-gray-text-color)">2</code>
-                            &nbsp; 
-                            &nbsp; 
+                            &nbsp;
+                            &nbsp;
                             <code>"px-5 py-3 rounded-lg</code>
                         </li>
-                        <li class="flex gap-2">
+                        <li class="flex gap-2 whitespace-nowrap">
                             <code class="text-(--dark-gray-text-color)">3</code>
-                            &nbsp; 
-                            &nbsp; 
-                            &nbsp; 
+                            &nbsp;
+                            &nbsp;
+                            &nbsp;
                             <code>bg-blue-600 text-white</code>
                         </li>
-                        <li class="flex gap-2">
+                        <li class="flex gap-2 whitespace-nowrap">
                             <code class="text-(--dark-gray-text-color)">4</code>
-                            &nbsp; 
-                            &nbsp; 
-                            &nbsp; 
+                            &nbsp;
+                            &nbsp;
+                            &nbsp;
                             <code>font-medium"&gt;</code>
                         </li>
-                        <li class="text-(--dark-gray-text-color) flex gap-2">
+                        <li class="text-(--dark-gray-text-color) flex gap-2 whitespace-nowrap">
                             <code>5</code>
-                            &nbsp; 
-                            &nbsp; 
+                            &nbsp;
+                            &nbsp;
                             <code>Salvar</code>
                         </li>
-                        <li class="text-(--dark-gray-text-color) flex gap-2">
+                        <li class="text-(--dark-gray-text-color) flex gap-2 whitespace-nowrap">
                             <code>6</code>
                             <code>&lt;/button&gt;</code>
                         </li>
                     </ul>
                 </aside>
-                <aside class="w-full">
+
+                <aside class="w-full text-3xl max-lg:text-2xl max-md:text-lg flex flex-col justify-between gap-6 max-md:gap-4">
                     <p>
-                        <code>px-5</code>
+                        <code class="text-(--light-blue-text-color)">px-5</code>
                         é o padding horizontal.
-                        <code>bg-blue-600</code>
+                        <code class="text-(--light-blue-text-color)">bg-blue-600</code>
                         é cor de fundo.
                     </p>
-                    <p>
+
+                    <p class="text-(--dark-gray-text-color)">
                         Você lê o arquivo no lugar onde ele age,
                         sem abrir outro arquivo.
                     </p>
-                    <p>
+
+                    <p class="text-(--dark-gray-text-color)">
                         Os valores vêm de uma escala fixa.
                         Espaçamento, cor e tipografia já combinam entre si.
                     </p>
@@ -85,5 +91,17 @@
             </div>
         </section>
     </main>
+        <nav class="fixed z-500 bottom-10 left-10 right-10 flex justify-between text-white">
+    <a href="./slide-02.html">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
+        </svg>
+    </a>
+    <a href="./slide-04.html">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793L10.146 4.354a.5.5 0 1 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+        </svg>
+    </a>
+</nav>
 </body>
 </html>
