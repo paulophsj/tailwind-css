@@ -6,57 +6,22 @@
     <title>TailwindCSS</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="style.css">
-</head> 
+</head>
 <body>
-    <main id="slide-02-main" class="min-h-dvh bg-(--background-light-gray-color) flex flex-col p-10 max-lg:p-8 max-md:p-5">
-        <header class="mb-5 flex justify-between items-center w-full max-md:gap-4">
-            <code class="text-(--dark-blue-text-color) font-bold tracking-widest text-sm max-md:text-xs">
-                PONTO DE PARTIDA
-            </code>
-            <code class="text-(--dark-gray-text-color) text-sm max-md:text-xs">
-                tailwind css
-            </code>
-        </header>
-        <span class="w-full h-px bg-(--light-gray-text-color) mb-10 max-lg:mb-8 max-md:mb-6"></span>
-        <section class="z-100 h-full flex flex-col gap-10 max-lg:gap-8 max-md:gap-6">
+    <main id="slide-08-main" class="text-white min-h-dvh bg-(--dark-blue-text-color) flex flex-col justify-center p-10 max-lg:p-8 max-md:p-5">
+        <section class="w-4/5 max-md:w-full flex flex-col gap-10 max-lg:gap-8 max-md:gap-6">
+            <span class="w-12 h-0.5 bg-white"></span>
             <h1 class="font-bold text-5xl max-lg:text-4xl max-md:text-3xl">
-                O atrito do CSS tradicional
+                O que levar desta conversa
             </h1>
-            <ul class="grid grid-cols-6 gap-5 max-lg:gap-4 max-md:grid-cols-1 max-md:gap-3">
-                <li class="col-span-2 bg-white p-8 rounded-md border border-gray-300 hover:bg-(--dark-blue-text-color) transition-colors max-lg:p-6 max-md:p-5 max-md:col-span-2">
-                    <code class="text-(--dark-blue-text-color) shrink-0 text-2xl max-md:text-xl">01</code>
-                    <p class="text-2xl max-lg:text-xl max-md:text-base font-bold">OpenIA</p>
-                    <code class="text-2xl max-lg:text-xl max-md:text-base text-(--light-gray-text-color)"> site de produtos web</code>
-                </li>
-                <li class="col-span-2 bg-white p-8 rounded-md border border-gray-300 hover:bg-(--dark-blue-text-color) transition-colors max-lg:p-6 max-md:p-5 max-md:col-span-2">
-                    <code class="text-(--dark-blue-text-color) shrink-0 text-2xl max-md:text-xl">02</code>
-                    <p class="text-2xl max-lg:text-xl max-md:text-base font-bold">Github</p>
-                    <code class="text-2xl max-lg:text-xl max-md:text-base text-(--light-gray-text-color)"> Pagina de produtos</code>
-                </li>
-                <li class="col-span-2 bg-white p-8 rounded-md border border-gray-300 hover:bg-(--dark-blue-text-color) transition-colors max-lg:p-6 max-md:p-5 max-md:col-span-2">
-                    <code class="text-(--dark-blue-text-color) shrink-0 text-2xl max-md:text-xl">03</code>
-                    <p class="text-2xl max-lg:text-xl max-md:text-base font-bold">Shopify</p>
-                    <code class="text-2xl max-lg:text-xl max-md:text-base text-(--light-gray-text-color)"> Interfaces internas</code>
-                </li>
-                <li class="col-span-2 bg-white p-8 rounded-md border border-gray-300 hover:bg-(--dark-blue-text-color) transition-colors max-lg:p-6 max-md:p-5 max-md:col-span-2">
-                    <code class="text-(--dark-blue-text-color) shrink-0 text-2xl max-md:text-xl">04</code>
-                    <p class="text-2xl max-lg:text-xl max-md:text-base font-bold">NASA</p>
-                    <code class="text-2xl max-lg:text-xl max-md:text-base text-(--light-gray-text-color)"> Portais publicos</code>
-                </li>
-               <li class="col-span-2 bg-white p-8 rounded-md border border-gray-300 hover:bg-(--dark-blue-text-color) transition-colors max-lg:p-6 max-md:p-5 max-md:col-span-2">
-                    <code class="text-(--dark-blue-text-color) shrink-0 text-2xl max-md:text-xl">05</code>
-                    <p class="text-2xl max-lg:text-xl max-md:text-base font-bold">Netflix</p>
-                    <code class="text-2xl max-lg:text-xl max-md:text-base text-(--light-gray-text-color)"> Netflix top 10</code>
-                </li>
-                <li class="col-span-2 bg-white p-8 rounded-md border border-gray-300 hover:bg-(--dark-blue-text-color) transition-colors max-lg:p-6 max-md:p-5 max-md:col-span-2">
-                    <code class="text-(--dark-blue-text-color) shrink-0 text-2xl max-md:text-xl">06</code>
-                    <p class="text-2xl max-lg:text-xl max-md:text-base font-bold">Laravel</p>
-                    <code class="text-2xl max-lg:text-xl max-md:text-base text-(--light-gray-text-color)"> Ecossistemas e Docs</code>
-                </li>
+            <ul class="text-2xl max-lg:text-xl max-md:text-base border-t border-white/25 divide-y divide-white/25">
+                <li class="py-6 max-md:py-4">O estilo mora no elemento: menos nomes, menos arquivos.</li>
+                <li class="py-6 max-md:py-4">A escala pronta de cores e espaços mantém a tela coerente.</li>
+                <li class="py-6 max-md:py-4">O custo é um HTML mais longo: aceite ou extraia componentes.</li>
             </ul>
-            <p>
-                Mais casos, visite: tailwindcss.com/showcase
-            </p>
+            <code class="text-blue-200 text-xl max-lg:text-lg max-md:text-sm">
+                tailwindcss.com/docs: a documentação é o melhor tutorial
+            </code>
         </section>
     </main>
     <nav class="fixed z-500 bottom-10 left-10 right-10 flex justify-between text-white">
@@ -65,7 +30,7 @@
                 <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
             </svg>
         </a>
-        <a href="./slide-09.html">
+        <a href="./index.html">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793L10.146 4.354a.5.5 0 1 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
             </svg>

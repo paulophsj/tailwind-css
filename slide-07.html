@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,56 +7,87 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <main id="slide-07-main"
-        class="min-h-dvh bg-(--background-light-gray-color) flex flex-col p-10 max-lg:p-8 max-md:p-5">
-        <header class="mb-5 flex justify-between items-center w-full max-md:gap-4">
+    <main id="slide-07-main" class="h-dvh max-lg:h-auto min-h-dvh bg-(--background-light-gray-color) flex flex-col p-10 max-lg:p-8 max-md:p-5">
+        <header class="z-100 mb-5 flex justify-between items-center w-full max-md:gap-4">
             <code class="text-(--dark-blue-text-color) font-bold tracking-widest text-sm max-md:text-xs">
-                ESTADOS
+                ADOÇÃO
             </code>
-            <code class="text-(--dark-gray-text-color) text-sm max-md:text-xs">
-                tailwind css
+            <code class="text-(--dark-gray-text-color) tracking-widest text-sm max-md:text-xs">
+                06 de centenas
             </code>
         </header>
-        <span class="w-full h-px bg-(--light-gray-text-color) mb-10 max-lg:mb-8 max-md:mb-6"></span>
-        <section class="z-100 h-full flex flex-col gap-10 max-lg:gap-8 max-md:gap-6">
+        <span class="z-100 w-full h-px bg-(--light-gray-text-color) mb-10 max-lg:mb-8 max-md:mb-6"></span>
+        <section class="z-100 relative flex-1 flex flex-col gap-10 max-lg:gap-8 max-md:gap-6">
             <h1 class="font-bold text-5xl max-lg:text-4xl max-md:text-3xl">
-                Dark mode é o mesmo prefixo
+                Quem usa em produção
             </h1>
-            <ul
-                class="grid grid-cols-6 gap-5 max-lg:gap-4 max-md:grid-cols-1 max-lg:grid-rows-5 max-md:gap-3 row-span-5">
-                <li
-                    class="col-span-3 text-center bg-white p-8 rounded-md border border-gray-300 max-lg:p-6 max-md:p-5 max-md:col-span-2">
-                    <code class="text-(--light-gray-text-color) shrink-0 text-2xl max-md:text-xl">Tema claro</code>
-                    <p class="text-2xl max-lg:text-xl max-md:text-base font-bold">Relatório mensal</p>
-                    <code
-                        class="text-(--light-gray-text-color) shrink-0 text-xl max-md:text-xl">bg-white text-slate-900</code>
+            <ul class="flex-1 grid grid-cols-3 gap-6 max-lg:grid-cols-2 max-lg:gap-4 max-md:grid-cols-1 max-md:gap-3">
+                <li class="group relative flex flex-col justify-between gap-4 bg-white p-6 rounded-lg border border-gray-200 max-md:p-5 transition-colors hover:bg-(--dark-blue-text-color) hover:border-(--dark-blue-text-color) hover:text-white">
+                    <code class="text-(--light-gray-text-color) group-hover:text-blue-200 transition-colors text-sm">01</code>
+                    <div class="flex flex-col gap-2">
+                        <h2 class="font-bold text-4xl max-lg:text-3xl max-md:text-2xl">OpenAI</h2>
+                        <code class="text-(--dark-gray-text-color) group-hover:text-blue-200 transition-colors text-lg max-md:text-sm">site e produtos web</code>
+                    </div>
+                    <img src="https://api.iconify.design/simple-icons/openai.svg" alt="" class="absolute right-6 top-1/2 -translate-y-1/2 h-1/2 brightness-0 opacity-10 transition group-hover:brightness-100 group-hover:opacity-100">
                 </li>
-                <li
-                    class="col-span-3 text-center bg-black p-8 rounded-md border border-gray-300 max-lg:p-6 max-md:p-5 max-md:col-span-2">
-                    <code class="text-(--light-blue-text-color) shrink-0 text-2xl max-md:text-xl">Tema escuro</code>
-                    <p class="text-2xl max-lg:text-xl max-md:text-base text-white font-bold">Relatório mensal</p>
-                    <code
-                        class="text-(--light-gray-text-color) shrink-0 text-xl max-md:text-xl">dark:bg-slate-900 dark:text-slate-100</code>
+                <li class="group relative flex flex-col justify-between gap-4 bg-white p-6 rounded-lg border border-gray-200 max-md:p-5 transition-colors hover:bg-(--dark-blue-text-color) hover:border-(--dark-blue-text-color) hover:text-white">
+                    <code class="text-(--light-gray-text-color) group-hover:text-blue-200 transition-colors text-sm">02</code>
+                    <div class="flex flex-col gap-2">
+                        <h2 class="font-bold text-4xl max-lg:text-3xl max-md:text-2xl">GitHub</h2>
+                        <code class="text-(--dark-gray-text-color) group-hover:text-blue-200 transition-colors text-lg max-md:text-sm">páginas de produto</code>
+                    </div>
+                    <img src="https://api.iconify.design/simple-icons/github.svg?color=white" alt="" class="absolute right-6 top-1/2 -translate-y-1/2 h-1/2 brightness-0 opacity-10 transition group-hover:brightness-100 group-hover:opacity-100">
+                </li>
+                <li class="group relative flex flex-col justify-between gap-4 bg-white p-6 rounded-lg border border-gray-200 max-md:p-5 transition-colors hover:bg-(--dark-blue-text-color) hover:border-(--dark-blue-text-color) hover:text-white">
+                    <code class="text-(--light-gray-text-color) group-hover:text-blue-200 transition-colors text-sm">03</code>
+                    <div class="flex flex-col gap-2">
+                        <h2 class="font-bold text-4xl max-lg:text-3xl max-md:text-2xl">Shopify</h2>
+                        <code class="text-(--dark-gray-text-color) group-hover:text-blue-200 transition-colors text-lg max-md:text-sm">interfaces internas</code>
+                    </div>
+                    <img src="https://api.iconify.design/simple-icons/shopify.svg?color=%237AB55C" alt="" class="absolute right-6 top-1/2 -translate-y-1/2 h-1/2 brightness-0 opacity-10 transition group-hover:brightness-100 group-hover:opacity-100">
+                </li>
+                <li class="group relative flex flex-col justify-between gap-4 bg-white p-6 rounded-lg border border-gray-200 max-md:p-5 transition-colors hover:bg-(--dark-blue-text-color) hover:border-(--dark-blue-text-color) hover:text-white">
+                    <code class="text-(--light-gray-text-color) group-hover:text-blue-200 transition-colors text-sm">04</code>
+                    <div class="flex flex-col gap-2">
+                        <h2 class="font-bold text-4xl max-lg:text-3xl max-md:text-2xl">NASA</h2>
+                        <code class="text-(--dark-gray-text-color) group-hover:text-blue-200 transition-colors text-lg max-md:text-sm">portais públicos</code>
+                    </div>
+                    <img src="https://api.iconify.design/simple-icons/nasa.svg?color=%23E03C31" alt="" class="absolute right-6 top-1/2 -translate-y-1/2 h-1/2 brightness-0 opacity-10 transition group-hover:brightness-100 group-hover:opacity-100">
+                </li>
+                <li class="group relative flex flex-col justify-between gap-4 bg-white p-6 rounded-lg border border-gray-200 max-md:p-5 transition-colors hover:bg-(--dark-blue-text-color) hover:border-(--dark-blue-text-color) hover:text-white">
+                    <code class="text-(--light-gray-text-color) group-hover:text-blue-200 transition-colors text-sm">05</code>
+                    <div class="flex flex-col gap-2">
+                        <h2 class="font-bold text-4xl max-lg:text-3xl max-md:text-2xl">Netflix</h2>
+                        <code class="text-(--dark-gray-text-color) group-hover:text-blue-200 transition-colors text-lg max-md:text-sm">Netflix Top 10</code>
+                    </div>
+                    <img src="https://api.iconify.design/simple-icons/netflix.svg?color=%23E50914" alt="" class="absolute right-6 top-1/2 -translate-y-1/2 h-1/2 brightness-0 opacity-10 transition group-hover:brightness-100 group-hover:opacity-100">
+                </li>
+                <li class="group relative flex flex-col justify-between gap-4 bg-white p-6 rounded-lg border border-gray-200 max-md:p-5 transition-colors hover:bg-(--dark-blue-text-color) hover:border-(--dark-blue-text-color) hover:text-white">
+                    <code class="text-(--light-gray-text-color) group-hover:text-blue-200 transition-colors text-sm">06</code>
+                    <div class="flex flex-col gap-2">
+                        <h2 class="font-bold text-4xl max-lg:text-3xl max-md:text-2xl">Laravel</h2>
+                        <code class="text-(--dark-gray-text-color) group-hover:text-blue-200 transition-colors text-lg max-md:text-sm">ecossistema e docs</code>
+                    </div>
+                    <img src="https://api.iconify.design/simple-icons/laravel.svg?color=%23FF2D20" alt="" class="absolute right-6 top-1/2 -translate-y-1/2 h-1/2 brightness-0 opacity-10 transition group-hover:brightness-100 group-hover:opacity-100">
+                </li>
             </ul>
-            <h2>
-            <code class="text-2xl max-md:text-xl font-bold" >HOVER: - FOCUS: - DISABLE: - DARK: A mesma gramatica para qualquer estado.</code>
-            </h2>
+            <code class="mb-6 text-(--dark-gray-text-color) text-xl max-lg:text-lg max-md:text-sm">
+                Mais casos na vitrine oficial: tailwindcss.com/showcase
+            </code>
         </section>
     </main>
-        <nav class="fixed z-500 bottom-10 left-10 right-10 flex justify-between text-white">
-    <a href="./slide-06.html">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
-        </svg>
-    </a>
-    <a href="./slide-08.html">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793L10.146 4.354a.5.5 0 1 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-        </svg>
-    </a>
-</nav>
+    <nav class="fixed z-500 bottom-10 left-10 right-10 flex justify-between text-white">
+        <a href="./slide-06.html">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
+            </svg>
+        </a>
+        <a href="./slide-08.html">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793L10.146 4.354a.5.5 0 1 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+            </svg>
+        </a>
+    </nav>
 </body>
-
 </html>
