@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TailwindCSS</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+    <main id="slide-07-main" class="min-h-dvh bg-(--background-light-gray-color) flex flex-col p-10 max-lg:p-8 max-md:p-5">
+        <header class="mb-5 flex justify-between items-center w-full max-md:gap-4">
+            <code class="text-(--dark-blue-text-color) font-bold tracking-widest text-sm max-md:text-xs">
+                ESTADOS
+            </code>
+            <code class="text-(--dark-gray-text-color) text-sm max-md:text-xs">
+                tailwind css
+            </code>
+        </header>
+        <span class="w-full h-px bg-(--light-gray-text-color) mb-10 max-lg:mb-8 max-md:mb-6"></span>
+        <section class="z-100 h-full flex flex-col gap-10 max-lg:gap-8 max-md:gap-6">
+            <h1 class="font-bold text-5xl max-lg:text-4xl max-md:text-3xl">
+                Dark mode é o mesmo prefixo
+            </h1>
+            <ul class="grid grid-cols-6 gap-5 max-lg:gap-4 max-md:grid-cols-1 max-md:gap-3">
+                <li class="col-span-3 bg-white p-9 rounded-md border border-gray-300 max-lg:p-6 max-md:p-5 max-md:col-span-2">
+                    <code class="text-(--light-gray-text-color) shrink-0 text-2xl max-md:text-xl">Tema claro</code>
+                    <p class="text-2xl max-lg:text-xl max-md:text-base">Relatório mensal</p>
+                    <code class="text-(--light-gray-text-color) shrink-0 text-xl max-md:text-xl">bg-white text-slate-900</code>
+                </li>
+                <li class="col-span-2 bg-white p-8 rounded-md border border-gray-300 max-lg:p-6 max-md:p-5 max-md:col-span-2">
+                    <code class="text-(--light-blue-text-color) shrink-0 text-2xl max-md:text-xl">Tema escuro</code>
+                    <p class="text-2xl max-lg:text-xl max-md:text-base"></p>
+               
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
